@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body#main_page{
+	  /*css for full size background image*/
+	  background: image_url("vineyard.jpg") no-repeat center center fixed;
+}
+
+#nav-img { padding-right: 0px; }
+
+#logo { display:block; 
+	margin-left: auto;
+	margin-right: auto;
+}
