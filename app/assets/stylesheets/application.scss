@@ -17,9 +17,13 @@
 @import "bootstrap";
 
 
-body#main_page{
+body#main_page {
 	  /*css for full size background image*/
-	  background: image_url("vineyard.jpg") no-repeat center center fixed;
+	background: image_url("vineyard.jpg") no-repeat center center fixed;
+}
+
+body#cellar {
+	background: image_url("old-style-brown-cloth.jpg");
 }
 
 #nav-img { padding-right: 0px; }

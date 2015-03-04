@@ -7516,3 +7516,1360 @@ Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 20
 
 
 Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 14:11:04 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 15:18:01 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 2048ms (Views: 2038.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/application-6ea940eecbc2d2c12c68fa06ab1a910f.css?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 15:18:04 -0700
+
+
+Started GET "/cellar" for ::1 at 2015-03-03 15:18:05 -0700
+Processing by CellarController#index as HTML
+  Rendered cellar/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 97ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cellar" for ::1 at 2015-03-03 20:13:23 -0700
+Processing by CellarController#index as HTML
+  Rendered cellar/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 181ms (Views: 174.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-6ea940eecbc2d2c12c68fa06ab1a910f.css?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:13:24 -0700
+
+
+Started GET "/cellar" for ::1 at 2015-03-03 20:15:02 -0700
+Processing by CellarController#index as HTML
+  Rendered cellar/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1696ms (Views: 1695.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/application-725b61007023f9f3272d3dbb3249dca5.css?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:15:04 -0700
+
+
+Started GET "/cellar" for ::1 at 2015-03-03 20:15:22 -0700
+Processing by CellarController#index as HTML
+  Rendered cellar/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1491ms (Views: 1490.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/application-dcf75b1388a4b85a89a68f93d6927bba.css?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:15:23 -0700
+
+
+Started GET "/cellar" for ::1 at 2015-03-03 20:15:44 -0700
+Processing by CellarController#index as HTML
+  Rendered cellar/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1538ms (Views: 1537.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:15:46 -0700
+
+
+Started GET "/cellar" for ::1 at 2015-03-03 20:15:48 -0700
+Processing by CellarController#index as HTML
+  Rendered cellar/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 101ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:15:49 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:17:04 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 103ms (Views: 102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:17:04 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:17:04 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:17:06 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 112ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:17:06 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:17:09 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 109ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:17:09 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:19:10 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 136ms (Views: 135.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:19:10 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:19:12 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 117ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:19:12 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:19:29 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 109ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:19:29 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:19:30 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:20:57 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 130ms
+
+ActionView::Template::Error (undefined local variable or method `partial' for #<#<Class:0x007f8c79d66c28>:0x007f8c7ef0fd68>):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10:   <%= render partial => "/layouts/navbar" %>
+    11: <%= yield %>
+    12: 
+    13: </body>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__3767253523762961320_70120700929300'
+
+
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.4ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (19.7ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (41.7ms)
+
+
+Started GET "/" for ::1 at 2015-03-03 20:21:28 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 114ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:21:29 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:21:31 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 108ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:21:32 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:22:13 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navbar.html.erb (0.1ms)
+Completed 200 OK in 126ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:22:13 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:23:05 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 123ms
+
+ActionView::Template::Error (Missing partial layouts/__navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/larsonkonr/turing/proj/WineCellar/app/views"
+):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10:   <%= render "/layouts/_navbar" %>
+    11: <%= yield %>
+    12: 
+    13: </body>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__3767253523762961320_70120720700720'
+
+
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.3ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/console.js within layouts/javascript (16.9ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /Users/larsonkonr/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.0/lib/web_console/templates/index.html (34.8ms)
+
+
+Started GET "/" for ::1 at 2015-03-03 20:23:22 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:23:22 -0700
+
+
+Started GET "/" for ::1 at 2015-03-03 20:23:30 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navbar.html.erb (1.1ms)
+Completed 200 OK in 111ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-03 20:23:30 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-03 20:23:31 -0700
+
+
+Started GET "/cellar" for ::1 at 2015-03-03 20:23:34 -0700
+Processing by CellarController#index as HTML
+  Rendered cellar/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (1.2ms)
+Completed 200 OK in 98ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cellar" for ::1 at 2015-03-04 09:10:36 -0700
+Processing by CellarController#index as HTML
+  Rendered cellar/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 138ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-04 09:10:36 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-04 09:10:36 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-04 09:10:36 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-04 09:10:36 -0700
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-04 09:10:36 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-04 09:10:37 -0700
+
+
+Started GET "/" for ::1 at 2015-03-04 09:10:48 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 116ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/affix-31984abe1036c1c2f684af192191ce9f.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/cellar-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/application-f65f56b9b6a4fe12948f73856fa6a112.css?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/cellar-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/alert-7c03e11fecf6b3ef100f76ae4f08586e.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/button-98bba85be4dcdd597554e0b7ce8e33a2.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/carousel-93f34f850a932957c93b7605c79faf45.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/collapse-7a82a3d4fb154ded3d2702465e21ca00.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-65c3929585250221f53bae696936ed44.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/tab-a90a1841af8c1eae12bfa5283a8093b0.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/transition-9e4de96204f41141474e9dbb59570af9.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-e550695030be1d627d1ba91b14792316.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/modal-ce380b9327d2cf6c826d8df818ea48a1.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-4d90d4ee015d2df34a7696864b2ea83c.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap/popover-5a060f876311e7fcb18f35058070de5a.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-00b1738c651720f44abc4bbf70bedb3e.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/application-6ebf3d41b3dab9c2507de31834ad4343.js?body=1" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/3126763-b58982b4e2eb2478de31aa7f6dfbcd24.png" for ::1 at 2015-03-04 09:10:49 -0700
+
+
+Started GET "/assets/vineyard-3579102376bb0ebbb0aee70b5c40f1da.jpg" for ::1 at 2015-03-04 09:10:49 -0700
