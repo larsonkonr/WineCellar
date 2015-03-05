@@ -1,21 +1,26 @@
 <body id="cellar">
-  <div id="sidebar">
-    Cabernet sauvignon
-    Pinot noir
-    Syrah
-    Merlot
-    Chardonnay
-    Sauvignon blanc
-    Riesling
-    Gewürztraminer
-  </div>
-  <div id="list">
-    2buck chuck
-    2009 Domaine Skouras St. George Cabernet Sauvignon
-    2009 Delas Côtes du Ventoux
-    2009 Coltibuono Cetamura Chianti
-    2010 Casamatta
-    2009 Valle Reale Vigneto Vigne Nuove Montepulciano d'Abruzzo
-    2009 d'Arenberg The Stump Jump Grenache-Shiraz-Mourvèdre
+  <div class="row">
+    <div class="col-md-2">
+      <div id="sidebar">
+        <% @categories.each do |category| %>
+          <div id="categories">
+            <%= category.name %><br>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div id="list">
+        <% @items.each do |item| %>
+         <div id="list_items">
+           <%= item.title %><br>
+           Description: <%= item.description %><br>
+           Style: <%= item.category %><br>
+           Region: <%= item.region %><br>
+           Price: <%= item.price %><br>
+         </div><br>
+        <% end %>
+      </div>
+    </div>
   </div>
 </body>

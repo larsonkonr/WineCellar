@@ -28,7 +28,27 @@ body#cellar {
 
 #nav-img { padding-right: 0px; }
 
-#logo { display:block; 
+#logo { display:block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#list, #sidebar {
+	background-color: #F8F8F8;
+	padding: 15px;
+	border-radius: 5px;
+	opacity: 0.9;
+	border: 1px solid;
+}
+
+#sidebar {
+	margin-left:15px
+}
+
+#list {
+	margin-left:-15px
+}
+
+#list_items, #categories {
+	padding: 2px
 }
