@@ -26,7 +26,9 @@ body#cellar {
 	background: image_url("old-style-brown-cloth.jpg");
 }
 
-#nav-img { padding-right: 0px; }
+#nav-img {
+	padding-right: 0px;
+}
 
 #logo { display:block;
 	margin-left: auto;
@@ -46,7 +48,8 @@ body#cellar {
 }
 
 #list {
-	margin-left:-15px
+	margin-left:-15px;
+	margin-right: 20px
 }
 
 #list_items, #categories {
@@ -58,19 +61,21 @@ body#cellar {
 	margin-bottom: 18px;
   margin-left: 20px;
   height: 250px;
-	width: 202px
+	width: 100%
 }
 
-.add-to-wishlist { position: absolute;
-               bottom: 25px;
-               left: 42px;
-               margin: 0;
-               padding: 5px 3px
-              }
+.add-to-wishlist {
+	position: absolute;
+	bottom: 25px;
+	left: 42px;
+	margin: 0;
+	padding: 5px 3px
+}
 
-.drank-wine { position: absolute;
-               bottom: 25px;
-               right: 35px;
-               margin: 0;
-               padding: 5px 3px
-              }
+.drank-wine {
+	position: absolute;
+	bottom: 25px;
+	right: 2px;
+	margin: 0;
+	padding: 5px 3px
+}

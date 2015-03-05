@@ -1,6 +1,6 @@
 <body id="cellar">
-  <div class="row">
-    <div class="col-md-2">
+  <div class="row" id="list">
+    <div class="col-md-2 col-sm-4 col-xs-6">
       <div id="sidebar">
         <% @categories.each do |category| %>
           <div id="categories">
@@ -11,23 +11,23 @@
     </div>
     <div class="col-md-10">
       <div class="row">
-          <% @items.each do |item| %>
-            <div class="col-md-3">
-              <div class="thumbnail">
-                <img src="..." alt="...">
-                <div class="caption">
-                  <h4><%= item.title %></h4>
-                  <p>
-                    Description: <%= item.description %><br>
-                    Style: <%= item.category %><br>
-                    Region: <%= item.region %><br>
-                    Price: <%= item.price %><br>
-                  </p>
-                  <p><a href="#" class="btn btn-primary add-to-wishlist" role="button">Add to Wishlist</a> <a href="#" class="btn btn-default drank-wine" role="button">Drank</a></p>
-                </div>
+        <% @items.each do |item| %>
+          <div class="col-md-3 col-sm-4 col-xs-6 col-lg-2">
+            <div class="thumbnail">
+              <img src="..." alt="...">
+              <div class="caption">
+                <h4><%= item.title %></h4>
+                <p>
+                  Description: <%= item.description %><br>
+                  Style: <%= item.category %><br>
+                  Region: <%= item.region %><br>
+                  Price: <%= item.price %><br>
+                </p>
+                <p><a href="#" class="btn btn-primary add-to-wishlist" role="button">Add to Wishlist</a> <a href="#" class="btn btn-default drank-wine" role="button">Drank</a></p>
               </div>
             </div>
-          <% end %>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>

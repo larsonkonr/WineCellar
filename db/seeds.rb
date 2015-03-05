@@ -21,7 +21,7 @@ regions = %w( Nova Scotia, Southern Chile, California, Oregon, Tuscany, Montefal
   Item.create!(
   title: title.sample + " " + title.sample + " " + title.sample,
   description: descriptions.sample,
-  price: rand(11.5...776.9),
+  price: rand(11.5...176.9).round(2),
   category: categories.sample,
   region: regions.sample
   )
