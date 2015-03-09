@@ -16,3 +16,38 @@
 //= require_tree .
 //= require jquery
 //= require bootstrap-sprockets
+
+var checkBox = "input[type=checkbox]";
+var checked = "input[type=checkbox]:checked";
+
+// filters the categories from the checkbox clicked
+function initializeCategoryFilter() {
+  var $filterCategoryItems = $(checkBox).click(function(){
+    $('.categories').hide();
+    var $selected = $(checked).map(function (index, element) {
+      return '.' + $(element).val()
+    });
+    var categories = $.makeArray($selected).join(',');
+    categories ? $(categories).show() : $('.categories').show();
+  });
+}
+
+function initializeSearchBar() {
+  var bar = $("#search-bar");
+  bar.keyup(function(){
+    $('.search-item').hide().filter(function(){
+      var itemText = $(this).text().toLowerCase();
+      var searchText = $('#search-bar').val().toLowerCase();
+      var filterMatch = itemText.indexOf(searchText) != -1;
+      return filterMatch;
+    }).show();
+  });
+}
+
+$(document).ready(function(){
+
+	initializeSearchBar();
+  initializeCategoryFilter();
+
+	console.log("doc ready");
+});
