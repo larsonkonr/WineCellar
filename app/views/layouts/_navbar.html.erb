@@ -10,23 +10,28 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="/cellar">Your Wine</a></li>
-        <li><a href="#">Wish List</a></li>
-      </ul>
+      <% if request.fullpath == ("cellar" || "wishlist" || "history") %>
+        <ul class="nav navbar-nav">
+          <li><a href="/cellar">Your Wine</a></li>
+          <li><a href="/wishlist">Wish List</a></li>
+          <li><a href="/history">Past Wines</a></li>
+        </ul>
+      <% end %>
       <ul class="nav navbar-nav navbar-right">
         <li>
           <% if current_user  %>
             <a class="navbar-brand">Welcome <%= current_user.name %>!</a>
           <% end %>
         </li>
-        <li>
-          <form class="navbar-form navbar-right pull-left" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search" id="search-bar">
-            </div>
-          </form>
-        </li>
+        <% if request.fullpath == ("cellar" || "wishlist" || "history") %>
+          <li>
+            <form class="navbar-form navbar-right pull-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" id="search-bar">
+              </div>
+            </form>
+          </li>
+        <% end %>
         <li>
         <% if current_user %>
           <%= link_to "Sign Out", signout_path %>
@@ -38,4 +43,6 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
   </nav>
+  <% #binding.pry %>
+
 </div>

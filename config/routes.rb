@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
 root 'welcome#index'
 resources 'cellar'
+resources 'wishlist'
+resources 'history'
 get '/auth/twitter/callback' => "sessions#create"
 get "/signout" => "sessions#destroy", :as => :signout
   # Example of regular route:
