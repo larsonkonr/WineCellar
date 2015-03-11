@@ -20,7 +20,7 @@
             <a class="navbar-brand">Welcome <%= current_user.name %>!</a>
           <% end %>
         </li>
-        <% if request.fullpath == ("/cellar" || "/wishlist" || "/history") %>
+        <% unless request.fullpath == ("/") %>
           <li>
             <form class="navbar-form navbar-right pull-left" role="search">
               <div class="form-group">

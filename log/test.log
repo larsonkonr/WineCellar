@@ -1,0 +1,86 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (124.7ms)[0m  [1mDROP DATABASE IF EXISTS "db/test"[0m
+  [1m[35m (327.8ms)[0m  CREATE DATABASE "db/test" ENCODING = 'utf8'
+  [1m[36mSQL (3.2ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (20.2ms)[0m  CREATE TABLE "categories" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (4.9ms)[0m  [1mCREATE TABLE "cellars" ("id" serial primary key, "title" character varying, "description" character varying, "region" character varying, "price" character varying, "category" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (3.1ms)[0m  CREATE TABLE "item_categories" ("id" serial primary key, "item_id" integer, "category_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (4.5ms)[0m  [1mCREATE TABLE "items" ("id" serial primary key, "title" character varying, "description" character varying, "region" character varying, "price" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "category" character varying) [0m
+  [1m[35m (5.6ms)[0m  CREATE TABLE "titles" ("id" serial primary key, "description" character varying, "region" character varying, "price" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (5.1ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "provider" character varying, "uid" character varying, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (3.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (2.3ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.6ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (2.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150310203326')[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150304190333')
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150305164203')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150305165023')
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150305165218')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150305174351')
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.6ms)[0m  [1mALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "cellars" DISABLE TRIGGER ALL;ALTER TABLE "item_categories" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "titles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mFixture Delete (1.4ms)[0m  [1mDELETE FROM "categories"[0m
+  [1m[35mFixture Insert (1.7ms)[0m  INSERT INTO "categories" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-03-11 03:57:58', '2015-03-11 03:57:58', 980190962)
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "categories" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-03-11 03:57:58', '2015-03-11 03:57:58', 298486374)[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "cellars"
+  [1m[36mFixture Insert (0.9ms)[0m  [1mINSERT INTO "cellars" ("title", "description", "region", "price", "category", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 'MyString', 'MyString', '2015-03-11 03:57:58', '2015-03-11 03:57:58', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "cellars" ("title", "description", "region", "price", "category", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 'MyString', 'MyString', '2015-03-11 03:57:58', '2015-03-11 03:57:58', 298486374)
+  [1m[36mFixture Delete (1.6ms)[0m  [1mDELETE FROM "item_categories"[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO "item_categories" ("item_id", "category_id", "created_at", "updated_at", "id") VALUES (1, 1, '2015-03-11 03:57:58', '2015-03-11 03:57:58', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "item_categories" ("item_id", "category_id", "created_at", "updated_at", "id") VALUES (1, 1, '2015-03-11 03:57:58', '2015-03-11 03:57:58', 298486374)[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "items" ("title", "description", "region", "price", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 'MyString', '2015-03-11 03:57:58', '2015-03-11 03:57:58', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "items" ("title", "description", "region", "price", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', 'MyString', '2015-03-11 03:57:58', '2015-03-11 03:57:58', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("provider", "uid", "name", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2015-03-11 03:57:58', '2015-03-11 03:57:58', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "users" ("provider", "uid", "name", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2015-03-11 03:57:58', '2015-03-11 03:57:58', 298486374)[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "cellars" ENABLE TRIGGER ALL;ALTER TABLE "item_categories" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "titles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+---------------------------------
+HistoryControllerTest: test_false
+---------------------------------
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-03-10 22:35:32 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (29.6ms)
+  Rendered layouts/_navbar.html.erb (0.9ms)
+Completed 200 OK in 7112ms (Views: 7089.3ms | ActiveRecord: 4.9ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-03-10 22:36:35 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navbar.html.erb (1.5ms)
+Completed 200 OK in 95ms (Views: 70.8ms | ActiveRecord: 4.6ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-03-10 22:39:07 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navbar.html.erb (0.7ms)
+Completed 200 OK in 69ms (Views: 48.8ms | ActiveRecord: 4.7ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/cellar" for 127.0.0.1 at 2015-03-10 22:41:18 -0600
+Processing by CellarController#index as HTML
+  [1m[36mItem Load (1.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered cellar/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 56ms
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2015-03-10 22:41:18 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
