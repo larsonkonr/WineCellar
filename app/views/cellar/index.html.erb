@@ -2,12 +2,15 @@
   <div class="row" id="list">
     <div class="col-md-2 col-sm-4 col-xs-6">
       <div id="categories">
-        <% @categories.each do |category| %>
+      <button type="button" id="add-button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+        Add a wine to your cellar
+      </button>
+        <% @wine_categories.each do |wine| %>
           <div id="category">
             <div id="category-checkbox">
               <label>
-                <input type="checkbox" value="<%= category.name.split(" ").join %>" id="<%= category.name.split(" ").join %>ID"/>
-                <%= category.name %>
+                <input type="checkbox" value="<%= wine.split(" ").join %>" id="<%= wine.split(" ").join %>ID"/>
+                <%= wine %>
               </label>
             </div>
           </div>
@@ -37,3 +40,21 @@
     </div>
   </div>
 </body>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add Wine!</button>
+      </div>
+    </div>
+  </div>
+</div>

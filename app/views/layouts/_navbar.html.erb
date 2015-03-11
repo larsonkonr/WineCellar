@@ -1,14 +1,11 @@
 <div class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <a class="navbar-brand pull-left" id="nav-img" href="#">
         <img alt="Brand" src="<%= asset_path("/favicon.ico")%>">
       </a>
       <a class="navbar-brand" href="/">WineCellar</a>
-            </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
+    </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <% if current_user %>
         <ul class="nav navbar-nav">
@@ -23,7 +20,7 @@
             <a class="navbar-brand">Welcome <%= current_user.name %>!</a>
           <% end %>
         </li>
-        <% if request.fullpath == ("cellar" || "wishlist" || "history") %>
+        <% #if request.fullpath == ("cellar" || "wishlist" || "history") %>
           <li>
             <form class="navbar-form navbar-right pull-left" role="search">
               <div class="form-group">
@@ -31,7 +28,7 @@
               </div>
             </form>
           </li>
-        <% end %>
+        <% #end %>
         <li>
         <% if current_user %>
           <%= link_to "Sign Out", signout_path %>
@@ -40,9 +37,7 @@
         <% end %>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
   </nav>
-  <% #binding.pry %>
-
 </div>
