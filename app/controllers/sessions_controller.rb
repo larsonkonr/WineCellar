@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
       redirect_to cellar_index_path, :notice => "Signed in!"
     else
       redirect_to root_url, :notice => "Nope try again!"
+    end
   end
 
   def destroy
