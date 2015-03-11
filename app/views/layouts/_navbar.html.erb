@@ -20,7 +20,7 @@
             <a class="navbar-brand">Welcome <%= current_user.name %>!</a>
           <% end %>
         </li>
-        <% #if request.fullpath == ("cellar" || "wishlist" || "history") %>
+        <% if request.fullpath == ("/cellar" || "/wishlist" || "/history") %>
           <li>
             <form class="navbar-form navbar-right pull-left" role="search">
               <div class="form-group">
@@ -28,7 +28,7 @@
               </div>
             </form>
           </li>
-        <% #end %>
+        <% end %>
         <li>
         <% if current_user %>
           <%= link_to "Sign Out", signout_path %>
