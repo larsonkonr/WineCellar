@@ -176,3 +176,58 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_navbar.html.erb (0.7ms)
 Completed 200 OK in 94ms (Views: 76.1ms | ActiveRecord: 4.2ms)
   [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-03-11 21:58:44 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navbar.html.erb (0.7ms)
+Completed 200 OK in 105ms (Views: 74.0ms | ActiveRecord: 8.4ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-03-11 21:59:48 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 62ms (Views: 41.8ms | ActiveRecord: 3.7ms)
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-03-11 21:59:48 -0600
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-03-11 22:02:34 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 100ms (Views: 75.0ms | ActiveRecord: 5.0ms)
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-03-11 22:02:34 -0600
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-03-11 22:05:12 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navbar.html.erb (0.7ms)
+Completed 200 OK in 101ms (Views: 77.0ms | ActiveRecord: 4.1ms)
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-03-11 22:05:12 -0600
+Started GET "/oauth/authenticate?oauth_token=ZuHnaKpEuFLSO8OiDJ8r1mW1oa1mSPZV" for 127.0.0.1 at 2015-03-11 22:05:12 -0600
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2015-03-11 22:08:12 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 100ms (Views: 78.1ms | ActiveRecord: 4.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m

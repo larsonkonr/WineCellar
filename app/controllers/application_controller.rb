@@ -12,6 +12,6 @@ class ApplicationController < ActionController::Base
   end
 
   def modal_new_item
-    @cellar = Cellar.new
+    @item = Item.new
   end
 end

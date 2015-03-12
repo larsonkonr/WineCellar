@@ -15,14 +15,14 @@ Category.create!(name: "Riesling")
 Category.create!(name: "Gewürztraminer")
 title = %w( Domaine Skouras St. George Domaine Skouras St. George Coltibuono Cetamura Casamatta Valle Reale Vigneto Vigne Nuove Montepulciano d'Abruzzo d'Arenberg The Stump Jump)
 descriptions = %w( ANGULAR ACIDITY AUSTERE BARNYARD TOASTY UNOAKED OPULENT LASER-LIKE)
-categories = ["Cabernet Sauvignon", "Pinot Noir", "Syrah", "Merlot", "Chardonnay", "Sauvignon Blanc", "Riesling", "Gewürztraminer"]
+style = ["Cabernet Sauvignon", "Pinot Noir", "Syrah", "Merlot", "Chardonnay", "Sauvignon Blanc", "Riesling", "Gewürztraminer"]
 regions = %w( Nova\ Scotia Chile California Oregon Tuscany Montefalco Moldova)
 100.times do
   Item.create!(
   title: title.sample + " " + title.sample + " " + title.sample,
   description: descriptions.sample,
   price: rand(11.5...176.9).round(2),
-  category: categories.sample,
+  style: style.sample,
   region: regions.sample
   )
 end

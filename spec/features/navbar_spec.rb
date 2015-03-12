@@ -4,5 +4,6 @@ require 'rails_helper'
     it "has the correct content" do
       visit '/'
       expect(page).to have_content 'WineCellar'
+      expect(page).to have_content 'Sign in with Twitter'
     end
   end

@@ -4,7 +4,7 @@ class CellarController < ApplicationController
     @categories = Category.all
     @wines = @items.map do | item |
     types_of_wine = []
-    types_of_wine << item.category
+    types_of_wine << item.style
     types_of_wine.flatten.uniq
     end
     @wine_categories = @wines.flatten.uniq

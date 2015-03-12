@@ -20,14 +20,14 @@
     <div class="col-md-10">
       <div class="row">
         <% @items.each do |item| %>
-          <div class="col-md-3 col-sm-4 col-xs-6 col-xlg-2 search-item categories <%= item.category.split(" ").join %>">
+          <div class="col-md-3 col-sm-4 col-xs-6 col-xlg-2 search-item categories <%= item.style.split(" ").join %>">
             <div class="thumbnail">
               <img src="http://starbounder.org/mediawiki/images/a/ab/Wine_Bottle.png" alt="...">
               <div class="caption">
                 <h4><%= item.title %></h4>
                 <p>
                   Description: <%= item.description %><br>
-                  Style: <%= item.category %><br>
+                  Style: <%= item.style %><br>
                   Region: <%= item.region %><br>
                   Price: <%= item.price %><br>
                 </p>

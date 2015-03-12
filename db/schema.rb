@@ -11,48 +11,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150310203326) do
+ActiveRecord::Schema.define(version: 20150312032530) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "categories", force: :cascade do |t|
     t.string   "name"
+    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "cellars", force: :cascade do |t|
-    t.string   "title"
-    t.string   "description"
-    t.string   "region"
-    t.string   "price"
-    t.string   "category"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+  create_table "categories_items", id: false, force: :cascade do |t|
+    t.integer "item_id",     null: false
+    t.integer "category_id", null: false
   end
 
-  create_table "item_categories", force: :cascade do |t|
-    t.integer  "item_id"
-    t.integer  "category_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-  end
+  add_index "categories_items", ["category_id"], name: "index_categories_items_on_category_id", using: :btree
+  add_index "categories_items", ["item_id"], name: "index_categories_items_on_item_id", using: :btree
 
   create_table "items", force: :cascade do |t|
     t.string   "title"
     t.string   "description"
     t.string   "region"
     t.string   "price"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-    t.string   "category"
-  end
-
-  create_table "titles", force: :cascade do |t|
-    t.string   "description"
-    t.string   "region"
-    t.string   "price"
+    t.string   "item_url"
+    t.string   "style"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
